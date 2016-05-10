@@ -8,6 +8,7 @@ Scraping Airbnb
 """
 
 import mechanize
+import os
 import cookielib
 from lxml import html
 import csv
@@ -649,58 +650,31 @@ def getPriceInfo(tree, ListingID):
 
     try:
         #Get Nodes That Contain The Grey Text, So That You Can Search For Sections
-        elements = tree.xpath('//*[@class="text-muted"]')
+        elements = tree.xpath('//*[@class="col-md-3 text-muted"]')
 
           #find The price portion of the page,
           #then go back up one level and sideways one level
         for element in elements:
 
-            if element.text.find('Prices') >= 0:
+            if element.text_content().find('Prices') >= 0:
                 #If you find what you are looking for Go Up One Level Then Go Sideways
-                targetelement = element.getparent().getnext()
+                targetelement = element.getnext()
                 break
 
         #Depth - First Search of The Target Node
-        descendants = targetelement.iterdescendants()
+        dat["ExtraPeople"] = targetelement.xpath("//span[text()='Extra people:']")[0].\
+            getparent().find("strong").text
+        dat["CleaningFee"] = targetelement.xpath("//span[text()='Cleaning Fee:']")[0].\
+            getparent().find("strong").text
+        dat["SecurityDeposit"] = targetelement.xpath("//span[text()='Security Deposit:']")[0].\
+            getparent().find("strong").text
+        dat["WeeklyPrice"] = targetelement.xpath("//span[text()='Weekly discount:']")[0].\
+            getparent().find("strong").text
+        dat["MonthlyPrice"] = targetelement.xpath("//span[text()='Monthly discount:']")[0].\
+            getparent().find("strong").text
+        dat["Cancellation"] = targetelement.xpath("//span[text()='Cancellation:']")[0].\
+            getparent().find("strong").text
 
-        for descendant in descendants:
-            #check to make sure there is text in descendant
-            if descendant.text:
-                ##Find Extra People Free ##
-                if descendant.text.find('Extra people:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['ExtraPeople'] = prop[0].text
-
-                ##Find Cleaning Fee ####
-                if descendant.text.find('Cleaning Fee:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['CleaningFee'] = prop[0].text
-
-                ##Find Security Deposit ####
-                if descendant.text.find('Security Deposit:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['SecurityDeposit'] = prop[0].text
-
-                ##Find Weekly Price ####
-                if descendant.text.find('Weekly Price:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['WeeklyPrice'] = prop[0].text
-
-                ##Find Monthly Price ####
-                if descendant.text.find('Monthly Price:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['MonthlyPrice'] = prop[0].text
-
-                ##Find Cancellation ####
-                if descendant.text.find('Cancellation:') >= 0:
-                    prop =  descendant.xpath('.//strong/*')
-                    if len(prop) >= 1:
-                        dat['Cancellation'] = prop[0].text
         return dat
 
     except:
@@ -838,16 +812,16 @@ def writeToCSV(resultDict, outfile):
 if __name__ == '__main__':
 
     #Iterate Through Main Page To Get Results
-    MainResults = IterateMainPage('Houston-TX?guests=4&room_types%5B%5D=Entire+home%2Fapt', 10)
+    MainResults = IterateMainPage('Houston-TX?guests=4&room_types%5B%5D=Entire+home%2Fapt', 1)
 
     #Take The Main Results From Previous Step and Iterate Through Each Listing
     #To add more detail
-    # DetailResults = iterateDetail(MainResults)
+    DetailResults = iterateDetail(MainResults)
     DetailDailyResults = iterateDailyDetail(MainResults)
     DetailResults = MainResults
     #Write Out Results To CSV File, using function I defined
-    writeToCSV(DetailResults, 'data/OutputFile.csv')
-    with open('data/OutputFileDaily.csv', 'wb') as f:
+    writeToCSV(DetailResults, '../data/OutputFile.csv')
+    with open('../data/OutputFileDaily.csv', 'wb') as f:
         w = DictUnicodeWriter(f, fieldnames = DetailDailyResults[0].keys())
         w.writeheader()
         w.writerows(DetailDailyResults)

@@ -1,0 +1,32 @@
+Indicator Code|Indicator Name
+All Homes|A
+Single Family Residences|SF
+Condominiums|C
+Price per Square Foot|MVSF
+1 Bedroom|1B
+2 Bedroom|2B
+3 Bedroom|3B
+4 Bedroom|4B
+5 or More|5B
+Bottom Tier|BT
+Middle Tier|MT
+Top Tier|TT
+Median Rent, Homes Listed for Rent|RMP
+Estimated Rent, All Homes in Region|RAH
+Estimated Rent per Square Foot|RZSF
+Price-to-Rent Ratio|PRR
+Median List Price|MLP
+Median Sale Price|MSP
+Median List Price per Square Foot|MLPSF
+Median Sale Price per Square Foot|MSPSF
+Listings with Price Cut in Last 30 Days|LPC
+Median Price Cut|MPC
+Ratio of Sale Price to List Price|SLPR
+Sold for Loss|SFL
+Sold for Gain|SFG
+Increasing Values|IV
+Decreasing Values|DV
+Turnover in Housing Market, Past 1 Year|SPY
+Number of Homes for Rent|HR
+Monthly Foreclosures per 10,000 Homes|HF
+Percentage of Sales that were Foreclosures|FR

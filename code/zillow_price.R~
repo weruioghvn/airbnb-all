@@ -1,0 +1,5 @@
+state_codes <- read.csv("./zillow_data/state_codes.csv", header = TRUE, sep = "|", quote = "\"", stringsAsFactors = FALSE)
+county_codes <- read.csv("./zillow_data/county_codes.csv", header = TRUE, sep = "|", quote = "\"", stringsAsFactors = FALSE)
+metro_codes <- read.csv("./zillow_data/metro_codes.csv", header = TRUE, sep = "|", quote = "\"", stringsAsFactors = FALSE)
+hood_codes <- read.csv("./zillow_data/hood_codes.csv", header = TRUE, sep = "|", quote = "\"", stringsAsFactors = FALSE)
+city_codes <- read.csv("./zillow_data/city_codes.csv", header = TRUE, sep = "|", quote = "\"", stringsAsFactors = FALSE)

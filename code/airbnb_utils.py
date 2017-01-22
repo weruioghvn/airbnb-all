@@ -3,10 +3,25 @@
 from lxml import html
 import re
 import requests
+import numpy as np
+import copy
+import time
 
 # Constants
 kRoomUrlPrefix = "https://www.airbnb.com/rooms/"
 kBaseUrlPrefix = "https://www.airbnb.com/s/"
+kProxiesFile = "proxyList.txt"
+kTimeOut = 4
+
+# Get proxy list
+proxyList = []
+with open(kProxiesFile, "r") as f:
+    while True:
+        line = f.readline()
+        if not line:
+            break
+        proxyList.append(line.strip())
+
 
 def monkeypatch_mechanize():
     """Work-around for a mechanize 0.2.5 bug. See: https://github.com/jjlee/mechanize/pull/58"""
@@ -76,9 +91,28 @@ class redshiftConnection:
 def getListingUrl(listingId):
     return kRoomUrlPrefix + str(listingId)
 
-def getPage(url):
-    page = requests.get(url)
-    return page
+def getPage(url, local = True):
+    if local:
+        while True:
+            try:
+                page = requests.get(url)
+                return page
+            except:
+                pass
+                
+
+    while True:
+        proxy = np.random.choice(proxyList)
+        try:
+            proxies = {'https': proxy}
+            page = requests.get(url, proxies = proxies, 
+                                timeout = (kTimeOut, kTimeOut))
+            print proxy + " succeeded"
+            return page
+        except:
+            print proxy + " failed"
+            proxyList.remove(proxy)
+            print "Proxy list has %s remaining" % str(len(proxyList))
 
 def getCoordinates(page):
     floatPattern = "\s*(-?\d*.\d+)"

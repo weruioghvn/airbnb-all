@@ -1,0 +1,935 @@
+Region|Code
+United States|00001
+New York, NY|00002
+Los Angeles, CA|00003
+Chicago, IL|00004
+Dallas-Fort Worth, TX|00005
+Philadelphia, PA|00006
+Houston, TX|00007
+Washington, DC|00008
+Miami-Fort Lauderdale, FL|00009
+Atlanta, GA|00010
+Boston, MA|00011
+San Francisco, CA|00012
+Detroit, MI|00013
+Riverside, CA|00014
+Phoenix, AZ|00015
+Seattle, WA|00016
+Minneapolis-St Paul, MN|00017
+San Diego, CA|00018
+St. Louis, MO|00019
+Tampa, FL|00020
+Baltimore, MD|00021
+Denver, CO|00022
+Pittsburgh, PA|00023
+Portland, OR|00024
+Sacramento, CA|00025
+San Antonio, TX|00026
+Orlando, FL|00027
+Cincinnati, OH|00028
+Cleveland, OH|00029
+Kansas City, MO|00030
+Las Vegas, NV|00031
+San Jose, CA|00032
+Columbus, OH|00033
+Charlotte, NC|00034
+Indianapolis, IN|00035
+Austin, TX|00036
+Virginia Beach, VA|00037
+Providence, RI|00038
+Nashville, TN|00039
+Milwaukee, WI|00040
+Jacksonville, FL|00041
+Memphis, TN|00042
+Louisville-Jefferson County, KY|00043
+Richmond, VA|00044
+Oklahoma City, OK|00045
+Hartford, CT|00046
+New Orleans, LA|00047
+Buffalo, NY|00048
+Raleigh, NC|00049
+Birmingham, AL|00050
+Salt Lake City, UT|00051
+Rochester, NY|00052
+Tucson, AZ|00053
+Honolulu, HI|00054
+Tulsa, OK|00055
+Fresno, CA|00056
+Stamford, CT|00057
+Albuquerque, NM|00058
+Albany, NY|00059
+Omaha, NE|00060
+New Haven, CT|00061
+Dayton, OH|00062
+Bakersfield, CA|00063
+Ventura, CA|00064
+Allentown, PA|00065
+Baton Rouge, LA|00066
+El Paso, TX|00067
+Worcester, MA|00068
+McAllen, TX|00069
+Grand Rapids, MI|00070
+Columbia, SC|00071
+Greensboro, NC|00072
+Akron, OH|00073
+Sarasota, FL|00074
+Little Rock, AR|00075
+Knoxville, TN|00076
+Springfield, MA|00077
+Stockton, CA|00078
+Poughkeepsie, NY|00079
+Charleston, SC|00080
+Syracuse, NY|00081
+Toledo, OH|00082
+Colorado Springs, CO|00083
+Greenville, SC|00084
+Fort Myers, FL|00085
+Boise City, ID|00086
+Lakeland, FL|00087
+Des Moines, IA|00088
+Madison, WI|00089
+Youngstown, OH|00090
+Scranton, PA|00091
+Augusta, GA|00092
+Harrisburg, PA|00093
+Ogden, UT|00094
+Melbourne, FL|00095
+Jackson, MS|00096
+Chattanooga, TN|00097
+Provo, UT|00098
+Lancaster, PA|00099
+Modesto, CA|00100
+Durham, NC|00101
+Daytona Beach, FL|00102
+Santa Rosa, CA|00103
+Winston-Salem, NC|00104
+Lexington, KY|00105
+Spokane, WA|00106
+Lansing, MI|00107
+Fayetteville, AR|00108
+Pensacola, FL|00109
+Visalia, CA|00110
+Springfield, MO|00111
+York, PA|00112
+Corpus Christi, TX|00113
+Flint, MI|00114
+Reno, NV|00115
+Asheville, NC|00116
+Port St. Lucie, FL|00117
+Santa Barbara, CA|00118
+Huntsville, AL|00119
+Fort Wayne, IN|00120
+Salinas, CA|00121
+Vallejo, CA|00122
+Mobile, AL|00123
+Reading, PA|00124
+Killeen, TX|00125
+Canton, OH|00126
+Manchester, NH|00127
+Shreveport, LA|00128
+Salem, OR|00129
+Beaumont, TX|00130
+Davenport, IL|00131
+Peoria, IL|00132
+Montgomery, AL|00133
+Tallahassee, FL|00134
+Trenton, NJ|00135
+Fayetteville, NC|00136
+Hickory, NC|00137
+Wilmington, NC|00138
+Evansville, IN|00139
+Eugene, OR|00140
+Rockford, IL|00141
+Savannah, GA|00142
+Ann Arbor, MI|00143
+Ocala, FL|00144
+Kalamazoo, MI|00145
+Naples, FL|00146
+South Bend, IN|00147
+Kingsport, TN|00148
+Roanoke, VA|00149
+Green Bay, WI|00150
+Charleston, WV|00151
+Lincoln, NE|00152
+Fort Collins, CO|00153
+Utica, NY|00154
+Fort Smith, AR|00155
+Columbus, GA|00156
+Boulder, CO|00157
+Huntington, WV|00158
+Lubbock, TX|00159
+Spartanburg, SC|00160
+Erie, PA|00161
+Duluth, MN|00162
+Atlantic City, NJ|00163
+New London, CT|00164
+Clarksville, TN|00165
+Lafayette, LA|00166
+San Luis Obispo, CA|00167
+Hagerstown, WV|00168
+Gainesville, FL|00169
+Holland, MI|00170
+Santa Cruz, CA|00171
+Cedar Rapids, IA|00172
+Merced, CA|00173
+Kennewick, WA|00174
+Greeley, CO|00175
+Olympia, WA|00176
+Binghamton, NY|00177
+Bremerton, WA|00178
+Laredo, TX|00179
+Amarillo, TX|00180
+Yakima, WA|00181
+Waco, TX|00182
+Topeka, KS|00183
+Macon, GA|00184
+Champaign-Urbana, IL|00185
+College Station, TX|00186
+Appleton, WI|00187
+Chico, CA|00188
+Tuscaloosa, AL|00189
+Cape Cod, MA|00190
+Burlington, VT|00191
+Prescott, AZ|00192
+Springfield, IL|00193
+Las Cruces, NM|00194
+Fargo, ND|00195
+Houma, LA|00196
+Florence, SC|00197
+Medford, OR|00198
+Lafayette, IN|00199
+Bellingham, WA|00200
+Lake Havasu City, AZ|00201
+Saginaw, MI|00202
+Johnson City, TN|00203
+Elkhart, IN|00204
+Yuma, AZ|00205
+Racine, WI|00206
+Bloomington, IN|00207
+Athens, GA|00208
+Torrington, CT|00209
+Greenville, NC|00210
+Anderson, SC|00211
+Hilton Head Island, SC|00212
+Hilo, HI|00213
+Kingston, NY|00214
+Daphne, AL|00215
+Destin, FL|00216
+Gainesville, GA|00217
+Jacksonville, NC|00218
+Redding, CA|00219
+Monroe, LA|00220
+Joplin, MO|00221
+El Centro, CA|00222
+Columbia, MO|00223
+Terre Haute, IN|00224
+Muskegon, MI|00225
+East Stroudsburg, PA|00226
+Bloomington, IL|00227
+Panama City, FL|00228
+Waterloo, IA|00229
+Oshkosh, WI|00230
+Yuba City, CA|00231
+Abilene, TX|00232
+Thomasville, NC|00233
+Dover, DE|00234
+Pascagoula, MS|00235
+Parkersburg, WV|00236
+Eau Claire, WI|00237
+Janesville, WI|00238
+Jackson, MI|00239
+Punta Gorda, FL|00240
+Statesville, NC|00241
+Pueblo, CO|00242
+Billings, MT|00243
+Bend, OR|00244
+Albany, GA|00245
+Vineland, NJ|00246
+Niles, MI|00247
+Kahului, HI|00248
+State College, PA|00249
+Alexandria, LA|00250
+Hanford, CA|00251
+Iowa City, IA|00252
+Rocky Mount, NC|00253
+Monroe, MI|00254
+Burlington, NC|00255
+Madera, CA|00256
+Chambersburg, PA|00257
+Pottsville, PA|00258
+Wheeling, OH|00259
+Grand Junction, CO|00260
+Concord, NH|00261
+Dothan, AL|00262
+Santa Fe, NM|00263
+Hattiesburg, MS|00264
+Dalton, GA|00265
+Homosassa Springs, FL|00266
+Warner Robins, GA|00267
+Valdosta, GA|00268
+Salisbury, NC|00269
+Springfield, OH|00270
+St. George, UT|00271
+Vero Beach, FL|00272
+Morristown, TN|00273
+Napa, CA|00274
+Tupelo, MS|00275
+Battle Creek, MI|00276
+Texarkana, TX|00277
+Jamestown, NY|00278
+Eureka, CA|00279
+Flagstaff, AZ|00280
+Wausau, WI|00281
+La Crosse, WI|00282
+Lebanon, PA|00283
+Anderson, IN|00284
+Sierra Vista, AZ|00285
+Idaho Falls, ID|00286
+Morgantown, WV|00287
+Glens Falls, NY|00288
+Winchester, VA|00289
+Altoona, PA|00290
+Salisbury, MD|00291
+Mansfield, OH|00292
+Weirton, OH|00293
+Lawton, OK|00294
+Sherman, TX|00295
+Willimantic, CT|00296
+Mount Vernon, WA|00297
+Albany, OR|00298
+Watertown, NY|00299
+Cleveland, TN|00300
+Sheboygan, WI|00301
+Jackson, TN|00302
+Dunn, NC|00303
+Wooster, OH|00304
+Kankakee, IL|00305
+Brunswick, GA|00306
+Ogdensburg, NY|00307
+Allegan, MI|00308
+Wenatchee, WA|00309
+Lawrence, KS|00310
+Missoula, MT|00311
+Bismarck, ND|00312
+East Liverpool, OH|00313
+Bay City, MI|00314
+Roseburg, OR|00315
+Sumter, SC|00316
+Show Low, AZ|00317
+Lima, OH|00318
+Cookeville, TN|00319
+Lexington Park, MD|00320
+Gadsden, AL|00321
+Cumberland, MD|00322
+Longview, WA|00323
+Whitewater, WI|00324
+Fond du Lac, WI|00325
+Ithaca, NY|00326
+Ashtabula, OH|00327
+Gettysburg, PA|00328
+Tullahoma, TN|00329
+Enterprise, AL|00330
+Adrian, MI|00331
+Twin Falls, ID|00332
+Corning, NY|00333
+Sebring, FL|00334
+Truckee, CA|00335
+Kokomo, IN|00336
+Ocean City, NJ|00337
+Rome, GA|00338
+Palm Coast, FL|00339
+Sunbury, PA|00340
+Dubuque, IA|00341
+The Villages, FL|00342
+Albertville, AL|00343
+New Philadelphia, OH|00344
+Orangeburg, SC|00345
+Cheyenne, WY|00346
+New Castle, PA|00347
+Sevierville, TN|00348
+Moses Lake, WA|00349
+Elmira, NY|00350
+Beaver Dam, WI|00351
+Southern Pines, NC|00352
+Ukiah, CA|00353
+Pendleton, OR|00354
+Corvallis, OR|00355
+Bloomsburg, PA|00356
+Watertown, WI|00357
+Grants Pass, OR|00358
+Plattsburgh, NY|00359
+DuBois, PA|00360
+Manitowoc, WI|00361
+Great Falls, MT|00362
+Columbia, TN|00363
+Cullman, AL|00364
+Olean, NY|00365
+Auburn, NY|00366
+Portsmouth, OH|00367
+Oak Harbor, WA|00368
+Lincolnton, NC|00369
+Hinesville, GA|00370
+Somerset, PA|00371
+Warsaw, IN|00372
+Keene, NH|00373
+Sandusky, OH|00374
+Searcy, AR|00375
+Columbus, IN|00376
+Lancaster, SC|00377
+Centralia, WA|00378
+Casper, WY|00379
+Marshfield, WI|00380
+Palatka, FL|00381
+Seneca, SC|00382
+Key West, FL|00383
+Aberdeen, WA|00384
+Grand Island, NE|00385
+Muskogee, OK|00386
+Owosso, MI|00387
+Galesburg, IL|00388
+Statesboro, GA|00389
+Marion, IN|00390
+Minot, ND|00391
+Shawnee, OK|00392
+Richmond, IN|00393
+Greeneville, TN|00394
+Huntsville, TX|00395
+Lake City, FL|00396
+Kapaa, HI|00397
+LaGrange, GA|00398
+Morehead City, NC|00399
+Klamath Falls, OR|00400
+Marinette, WI|00401
+Clearlake, CA|00402
+Elizabeth City, NC|00403
+Red Bluff, CA|00404
+Coos Bay, OR|00405
+Ruston, LA|00406
+Oneonta, NY|00407
+Baraboo, WI|00408
+Rutland, VT|00409
+Sturgis, MI|00410
+Fremont, OH|00411
+Lewiston, ID|00412
+Shelton, WA|00413
+Albemarle, NC|00414
+Georgetown, SC|00415
+Laconia, NH|00416
+Batavia, NY|00417
+Granbury, TX|00418
+Norwalk, OH|00419
+Edwards, CO|00420
+Walla Walla, WA|00421
+Dublin, GA|00422
+Sanford, NC|00423
+Tiffin, OH|00424
+Fairmont, WV|00425
+Picayune, MS|00426
+Gloversville, NY|00427
+Phoenix Lake, CA|00428
+Gaffney, SC|00429
+Carson City, NV|00430
+Calhoun, GA|00431
+Oil City, PA|00432
+Jasper, IN|00433
+Eagle Pass, TX|00434
+Harriman, TN|00435
+Payson, AZ|00436
+Greenville, OH|00437
+Athens, TN|00438
+Fernley, NV|00439
+Malone, NY|00440
+Ocean Pines, MD|00441
+Durango, CO|00442
+Boone, NC|00443
+Jacksonville, TX|00444
+Douglas, GA|00445
+St. Marys, GA|00446
+Paris, TX|00447
+Humboldt, TN|00448
+New Castle, IN|00449
+Sidney, OH|00450
+Cortland, NY|00451
+Norfolk, NE|00452
+Burlington, IA|00453
+Kendallville, IN|00454
+Nogales, AZ|00455
+Oxford, MS|00456
+Plymouth, IN|00457
+Gardnerville Ranchos, NV|00458
+Tahlequah, OK|00459
+Canon City, CO|00460
+Culpeper, VA|00461
+Bedford, IN|00462
+Wapakoneta, OH|00463
+Bellefontaine, OH|00464
+Safford, AZ|00465
+Shelbyville, TN|00466
+Pahrump, NV|00467
+Claremont, NH|00468
+Cornelia, GA|00469
+Big Rapids, MI|00470
+Seymour, IN|00471
+Auburn, IN|00472
+Paragould, AR|00473
+Lawrenceburg, TN|00474
+Mountain Home, AR|00475
+Cedartown, GA|00476
+Montrose, CO|00477
+Ellensburg, WA|00478
+Celina, OH|00479
+La Follette, TN|00480
+Urbana, OH|00481
+Okeechobee, FL|00482
+McMinnville, TN|00483
+Berlin, NH|00484
+Clewiston, FL|00485
+Logansport, IN|00486
+Walterboro, SC|00487
+Union City, TN|00488
+Vincennes, IN|00489
+Dyersburg, TN|00490
+Crawfordsville, IN|00491
+Easton, MD|00492
+Huntington, IN|00493
+Astoria, OR|00494
+Peru, IN|00495
+Coshocton, OH|00496
+Bay City, TX|00497
+Newport, TN|00498
+Seneca Falls, NY|00499
+Martin, TN|00500
+Susanville, CA|00501
+Arcadia, FL|00502
+Decatur, IN|00503
+Angola, IN|00504
+Brenham, TX|00505
+Frankfort, IN|00506
+Brevard, NC|00507
+Wabash, IN|00508
+Cambridge, MD|00509
+Madison, IN|00510
+Paris, TN|00511
+Beeville, TX|00512
+Washington, IN|00513
+Juneau, AK|00514
+Lewisburg, TN|00515
+Silver City, NM|00516
+North Vernon, IN|00517
+Fort Morgan, CO|00518
+Wauchula, FL|00519
+Fort Valley, GA|00520
+Greensburg, IN|00521
+City of The Dalles, OR|00522
+Fallon, NV|00523
+Scottsburg, IN|00524
+Sterling, CO|00525
+Hood River, OR|00526
+Bishop, CA|00527
+Spencer, IA|00528
+Brownsville, TX|00529
+Anchorage, AK|00530
+Lebanon, NH|00531
+Grand Forks, ND|00532
+Connersville, IN|00533
+Lake Charles, LA|00534
+Hammond, LA|00535
+San Angelo, TX|00536
+Fairbanks, AK|00537
+Bozeman, MT|00538
+Athens, TX|00539
+Stillwater, OK|00540
+Forest City, NC|00541
+Crossville, TN|00542
+Tifton, GA|00543
+Gainesville, TX|00544
+Monroe, WI|00545
+Bonham, TX|00546
+Longview, TX|00547
+Tyler, TX|00548
+Meridian, MS|00549
+Clarksburg, WV|00550
+Indiana, PA|00551
+Lufkin, TX|00552
+Laurel, MS|00553
+Danville, IL|00554
+Wilson, NC|00555
+New Iberia, LA|00556
+Marshall, TX|00557
+Alamogordo, NM|00558
+Barre, VT|00559
+Waycross, GA|00560
+Natchez, MS|00561
+Fort Polk South, LA|00562
+Moultrie, GA|00563
+El Campo, TX|00564
+Stephenville, TX|00565
+Fremont, NE|00566
+Vidalia, GA|00567
+Laurinburg, NC|00568
+Sulphur Springs, TX|00569
+Mount Pleasant, TX|00570
+Camden, AR|00571
+Jesup, GA|00572
+Crescent City, CA|00573
+Mineral Wells, TX|00574
+Heber, UT|00575
+Wichita Falls, TX|00576
+Victoria, TX|00577
+Corsicana, TX|00578
+Thomasville, GA|00579
+Warren, PA|00580
+Plainview, TX|00581
+Corbin, KY|00582
+Cleveland, MS|00583
+Moberly, MO|00584
+Campbellsville, KY|00585
+Brookings, OR|00586
+Prineville, OR|00587
+Midland, TX|00588
+Toccoa, GA|00589
+Wichita, KS|00590
+Muncie, IN|00591
+Kalispell, MT|00592
+Helena, MT|00593
+Bainbridge, GA|00594
+Summerville, GA|00595
+Columbus, MS|00596
+Palestine, TX|00597
+Grenada, MS|00598
+Opelousas, LA|00599
+Milledgeville, GA|00600
+Muscatine, IA|00601
+Glasgow, KY|00602
+Natchitoches, LA|00603
+Sault Ste. Marie, MI|00604
+Newberry, SC|00605
+Bennington, VT|00606
+De Ridder, LA|00607
+Big Spring, TX|00608
+Brookhaven, MS|00609
+Bastrop, LA|00610
+Helena, AR|00611
+Kodiak, AK|00612
+Vicksburg, MS|00613
+Bogalusa, LA|00614
+Hastings, NE|00615
+Portland, ME|00616
+Myrtle Beach, SC|00617
+Lynchburg, VA|00618
+Gulfport, MS|00619
+Sioux Falls, SD|00620
+Charlottesville, VA|00621
+Seaford, DE|00622
+St. Cloud, MN|00623
+Rochester, MN|00624
+Blacksburg, VA|00625
+Ottawa, IL|00626
+Bangor, ME|00627
+Decatur, AL|00628
+Jefferson City, MO|00629
+Florence, AL|00630
+Sioux City, IA|00631
+Traverse City, MI|00632
+Auburn, AL|00633
+Coeur d'Alene, ID|00634
+Odessa, TX|00635
+Lumberton, NC|00636
+Farmington, NM|00637
+St. Joseph, MO|00638
+Manhattan, KS|00639
+New Bern, NC|00640
+Rapid City, SD|00641
+Bowling Green, KY|00642
+Logan, ID|00643
+Harrisonburg, VA|00644
+Goldsboro, NC|00645
+Augusta, ME|00646
+Jonesboro, AR|00647
+Elizabethtown, KY|00648
+Anniston, AL|00649
+Staunton, VA|00650
+Williamsport, PA|00651
+Owensboro, KY|00652
+Michigan City, IN|00653
+Decatur, IL|00654
+Bluefield, WV|00655
+Danville, VA|00656
+Pine Bluff, AR|00657
+Richmond, KY|00658
+Paducah, KY|00659
+Shelby, NC|00660
+Mankato, MN|00661
+Cape Girardeau, MO|00662
+Hot Springs, AR|00663
+Brainerd, MN|00664
+Pocatello, ID|00665
+Ames, IA|00666
+Meadville, PA|00667
+Zanesville, OH|00668
+Russellville, AR|00669
+Midland, MI|00670
+Talladega, AL|00671
+Beckley, WV|00672
+Chillicothe, OH|00673
+Quincy, IL|00674
+Findlay, OH|00675
+Mount Airy, NC|00676
+Gallup, NM|00677
+Port Angeles, WA|00678
+Fort Payne, AL|00679
+Frankfort, KY|00680
+Mount Pleasant, MI|00681
+North Wilkesboro, NC|00682
+Martinsville, VA|00683
+Marquette, MI|00684
+Marion, OH|00685
+Marion, IL|00686
+Roswell, NM|00687
+Charleston, IL|00688
+Athens, OH|00689
+Hobbs, NM|00690
+Nacogdoches, TX|00691
+Hutchinson, KS|00692
+Faribault, MN|00693
+Hudson, NY|00694
+Somerset, KY|00695
+Sayre, PA|00696
+Crowley, LA|00697
+Salina, KS|00698
+Rio Grande City, TX|00699
+Mount Vernon, OH|00700
+Enid, OK|00701
+Carbondale, IL|00702
+Kinston, NC|00703
+London, KY|00704
+Sterling, IL|00705
+Abbeville, LA|00706
+Fergus Falls, MN|00707
+Ardmore, OK|00708
+Morgan City, LA|00709
+Ontario, OR|00710
+Carlsbad, NM|00711
+McComb, MS|00712
+Rochelle, IL|00713
+Scottsboro, AL|00714
+Danville, KY|00715
+Alexander City, AL|00716
+Warrensburg, MO|00717
+Fort Leonard Wood, MO|00718
+Mason City, IA|00719
+Winona, MN|00720
+Platteville, WI|00721
+Greenville, MS|00722
+Bartlesville, OK|00723
+Elko, NV|00724
+Rexburg, ID|00725
+Amsterdam, NY|00726
+Brigham City, UT|00727
+Kerrville, TX|00728
+Clinton, IA|00729
+Del Rio, TX|00730
+Washington, NC|00731
+Cadillac, MI|00732
+Mount Vernon, IL|00733
+Madisonville, KY|00734
+Lewistown, PA|00735
+Ponca City, OK|00736
+Blytheville, AR|00737
+Red Wing, MN|00738
+Cedar City, UT|00739
+Gillette, WY|00740
+Oak Hill, WV|00741
+Huntingdon, PA|00742
+McAlester, OK|00743
+Blackfoot, ID|00744
+Henderson, NC|00745
+Coldwater, MI|00746
+Harrison, AR|00747
+Rolla, MO|00748
+Duncan, OK|00749
+Pullman, WA|00750
+Bemidji, MN|00751
+Mount Sterling, KY|00752
+Menomonie, WI|00753
+Selma, AL|00754
+Rock Springs, WY|00755
+Bucyrus, OH|00756
+Bradford, PA|00757
+Burley, ID|00758
+Fort Madison, IA|00759
+Greenwood, MS|00760
+Alma, MI|00761
+Durant, OK|00762
+Willmar, MN|00763
+Wilmington, OH|00764
+El Dorado, AR|00765
+Minden, LA|00766
+Jacksonville, IL|00767
+Alice, TX|00768
+Marshalltown, IA|00769
+West Plains, MO|00770
+Cambridge, OH|00771
+Rockland, ME|00772
+Selinsgrove, PA|00773
+Centralia, IL|00774
+Lock Haven, PA|00775
+Austin, MN|00776
+Pittsburg, KS|00777
+Defiance, OH|00778
+Pontiac, IL|00779
+Houghton, MI|00780
+Brownwood, TX|00781
+Fort Dodge, IA|00782
+Americus, GA|00783
+Scottsbluff, NE|00784
+North Platte, NE|00785
+Ada, OK|00786
+Moscow, ID|00787
+Murray, KY|00788
+Canton, IL|00789
+Escanaba, MI|00790
+Corinth, MS|00791
+Newton, IA|00792
+Garden City, KS|00793
+Hutchinson, MN|00794
+Batesville, AR|00795
+Owatonna, MN|00796
+Emporia, KS|00797
+Winfield, KS|00798
+Laramie, WY|00799
+Alexandria, MN|00800
+Ottumwa, IA|00801
+Lebanon, MO|00802
+Coffeyville, KS|00803
+Taylorville, IL|00804
+Effingham, IL|00805
+Valley, AL|00806
+Butte, MT|00807
+Kill Devil Hills, NC|00808
+Dodge City, KS|00809
+Chester, SC|00810
+Taos, NM|00811
+Troy, AL|00812
+Vernal, UT|00813
+Kingsville, TX|00814
+Columbus, NE|00815
+Dillon, SC|00816
+Brookings, SD|00817
+Kennett, MO|00818
+St. Marys, PA|00819
+Hope, AR|00820
+Jennings, LA|00821
+Central City, KY|00822
+Jackson, WY|00823
+Maysville, KY|00824
+Albert Lea, MN|00825
+Iron Mountain, MI|00826
+Lincoln, IL|00827
+Alpena, MI|00828
+McPherson, KS|00829
+Washington Court House, OH|00830
+Van Wert, OH|00831
+Merrill, WI|00832
+Middlesborough, KY|00833
+Hays, KS|00834
+Forrest City, AR|00835
+Yazoo City, MS|00836
+Great Bend, KS|00837
+Grants, NM|00838
+Fitzgerald, GA|00839
+Thomaston, GA|00840
+Mountain Home, ID|00841
+Altus, OK|00842
+Uvalde, TX|00843
+Lexington, NE|00844
+Boone, IA|00845
+Clarksdale, MS|00846
+New Ulm, MN|00847
+Marshall, MN|00848
+La Grande, OR|00849
+Mexico, MO|00850
+Deming, NM|00851
+Harrisburg, IL|00852
+Fredericksburg, TX|00853
+Magnolia, AR|00854
+Pampa, TX|00855
+Cordele, GA|00856
+Pierre Part, LA|00857
+Arkadelphia, AR|00858
+Liberal, KS|00859
+Levelland, TX|00860
+Wahpeton, ND|00861
+Mitchell, SD|00862
+Yankton, SD|00863
+Oskaloosa, IA|00864
+Beatrice, NE|00865
+Borger, TX|00866
+Raymondville, TX|00867
+Elk City, OK|00868
+Roanoke Rapids, NC|00869
+Dumas, TX|00870
+Parsons, KS|00871
+Tuskegee, AL|00872
+Price, UT|00873
+Worthington, MN|00874
+Jamestown, ND|00875
+Fairmont, MN|00876
+Guymon, OK|00877
+West Point, MS|00878
+Ruidoso, NM|00879
+Storm Lake, IA|00880
+Woodward, OK|00881
+Hereford, TX|00882
+Brownsville, TN|00883
+Los Alamos, NM|00884
+Snyder, TX|00885
+Spirit Lake, IA|00886
+Havre, MT|00887
+Sweetwater, TX|00888
+Andrews, TX|00889
+Lamesa, TX|00890
+Pecos, TX|00891
+Vernon, TX|00892
+Tallulah, LA|00893
+Johnstown, PA|00894
+Pittsfield, MA|00895
+Lewiston, ME|00896
+Branson, MO|00897
+Stevens Point, WI|00898
+Greenwood, SC|00899
+Farmington, MO|00900
+Point Pleasant, WV|00901
+Ashland, OH|00902
+Clovis, NM|00903
+Freeport, IL|00904
+Starkville, MS|00905
+Rockingham, NC|00906
+Sedalia, MO|00907
+Mayfield, KY|00908
+Dixon, IL|00909
+Macomb, IL|00910
+Miami, OK|00911
+Kirksville, MO|00912
+Sheridan, WY|00913
+Silverthorne, CO|00914
+Dickinson, ND|00915
+Spearfish, SD|00916
+Williston, ND|00917
+Pierre, SD|00918
+Portales, NM|00919
+Kearney, NE|00920
+Lewisburg, PA|00921
+Espanola, NM|00922
+Riverton, WY|00923
+Pella, IA|00924
+Watertown, SD|00925
+Eufaula, AL|00926
+Indianola, MS|00927
+Las Vegas, NM|00928
+Union, SC|00929
+Evanston, WY|00930
+Atchison, KS|00931
+Wahpeton, MN|00932
+Country|00933
+Msa|00934
